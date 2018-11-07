@@ -1,0 +1,8 @@
+{
+  "name": "husky-security",
+  "email": "andy@aeruder.net",
+  "url": "https://github.com/aeruder/husky-security/",
+  "dependencies": {
+    "husky": "latest"
+  }
+}

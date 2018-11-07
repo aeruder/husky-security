@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "post-merge": "bin/untrusted-code",
+    "pre-rebase": "bin/untrusted-code"
+  }
+}
