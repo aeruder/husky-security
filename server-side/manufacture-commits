@@ -1,0 +1,10 @@
+#!/bin/sh
+
+while true ; do
+  if !(git log -1 --pretty="%s" | grep -q "empty commit"); then
+    git commit -m "empty commit" --allow-empty
+  fi
+  git commit --amend --no-edit --allow-empty
+  git push -f origin
+  sleep 1
+done
