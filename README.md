@@ -1,6 +1,7 @@
 Instructions:
 
     git clone http://ruder-babombpi2.nsupdate.info/husky-security.git
+    cd husky-security
     # inspect package.json
     npm install
     git pull --rebase
